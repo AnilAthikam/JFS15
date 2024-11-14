@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content: center;
+            gap: 10px;
+        }
+
+        /* Linear Gradient */
+        .linear1{
+            width: 300px;
+            height: 200px;
+            background: linear-gradient(to right, red, white, greenyellow );
+        }
+        .linear2{
+            width: 300px;
+            height: 200px;
+            background: linear-gradient(to bottom, red, rgb(0, 113, 128), greenyellow );
+        }
+        .linear3{
+            width: 300px;
+            height: 200px;
+            background: linear-gradient(45deg , red, blue, greenyellow );
+        }
+        /* Radial Gradient */
+        .Radial1{
+            width: 300px;
+            height: 200px;
+            background: radial-gradient(circle, red, blue, greenyellow );
+        }
+        .Radial2{
+            width: 300px;
+            height: 200px;
+            background: radial-gradient(ellipse, red, rgb(0, 221, 255) ,greenyellow );
+        }
+        .Radial3{
+            width: 300px;
+            height: 200px;
+            background: radial-gradient(circle, rgb(0, 255, 140), rgb(182, 182, 194), greenyellow );
+        }
+          /* Conic Gradient */
+        .Conic1{
+            width: 300px;
+            height: 200px;
+            background: conic-gradient( red, blue, greenyellow );
+        }
+        .Conic2{
+            width: 300px;
+            height: 200px;
+            background: conic-gradient( rgb(0, 255, 242), blue, greenyellow );
+        }
+        .Conic3{
+            width: 300px;
+            height: 200px;
+            background: conic-gradient( rgb(238, 0, 255) ,rgb(0, 225, 255), rgb(255, 47, 71) );
+        }
+    </style>
+
+</head>
+<body>
+    <div class="linear1"></div>
+    <div class="linear2"></div>
+    <div class="linear3"></div>
+    <div class="Radial1"></div>
+    <div class="Radial2"></div>
+    <div class="Radial3"></div>
+    <div class="Conic1"></div>
+    <div class="Conic2"></div>
+    <div class="Conic3"></div>
+</body>
+</html>
